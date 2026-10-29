@@ -1,4 +1,4 @@
-# City of Milan Open Data (dati-comune-milano-it)
+# City of Milan Open Data
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,29 +64,102 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-City of Milan Open Data is a open data portal open-data portal for Italy running **CKAN**, exposing a standardized catalog API over ~2,594 datasets.
+City of Milan Open Data is a open data portal open-data portal for Italy running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 2,594 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/dati-comune-milano-it/refs/heads/main/apis.yml)
+**Areas:** Open Data · CKAN · Data Catalog · DCAT · Government Data · Open Data Portal · Italy
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=dati-comune-milano-it-api-evangelist&utm_content=repo)
+## City of Milan Open Data on APIs.io
 
-## Type
-- **kind:** government  ·  **software:** CKAN  ·  **version:** 2.8.12
+Everything profiled for City of Milan Open Data is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/dati-comune-milano-it/](https://apis.io/providers/dati-comune-milano-it/)** — or go straight to one of the APIs or properties below.
 
-## API
-- **City of Milan Open Data CKAN Action API** — base `https://dati.comune.milano.it/api/3/action`. [Docs](https://docs.ckan.org/en/latest/api/) · [Portal](https://dati.comune.milano.it)
-- Live endpoint verified: `https://dati.comune.milano.it/api/3/action/status_show` · ~2,594 datasets
+### APIs (1)
 
-## Plans, Rate Limits, FinOps
-- [Plans](plans/dati-comune-milano-it-plans-pricing.yml) — Free / open public data API.
-- [RateLimits](rate-limits/dati-comune-milano-it-rate-limits.yml) — No published limit; harvest politely.
-- [FinOps](finops/dati-comune-milano-it-finops.yml) — Public open data; no usage-based billing.
+- [City of Milan Open Data CKAN Action API](https://apis.io/apis/dati-comune-milano-it/catalog/) — CKAN Action API for City of Milan Open Data, a consistent JSON-over-HTTP interface over a catalog of 2,594 datasets. Standard actions include…
 
-## Timestamps
-- **Created:** 2026-06-04
-- **Modified:** 2026-06-04
+### Published properties
 
-## Maintainers
-**FN:** Kin Lane
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Email:** kin@apievangelist.com
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Dati Comune Milano It Domain Security](https://apis.io/security/dati-comune-milano-it/dati-comune-milano-it-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Dati Comune Milano It Plans Pricing](https://apis.io/plans/dati-comune-milano-it/dati-comune-milano-it-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Dati Comune Milano It Rate Limits](https://apis.io/rate-limits/dati-comune-milano-it/dati-comune-milano-it-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Dati Comune Milano It Finops](https://apis.io/finops/dati-comune-milano-it/dati-comune-milano-it-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://dati.comune.milano.it)
+- [Documentation](https://docs.ckan.org/en/latest/api/)
+
+## API Evangelist rating
+
+**Kin Score 9.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/dati-comune-milano-it/](https://apis.io/providers/dati-comune-milano-it/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for City of Milan Open Data: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/dati-comune-milano-it/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
